@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabuada</title>
+    <title>media</title>
+primeira nota <input id="nota1" type="number"> <br/>
+segunda nota <input id="nota2" type="number"> <br/>
+<button onclick="media()">calcular</button>
+
+<script type="text/javascript">
+    function media(){
+        var nota1 = parseFloat(document.getElementById(nota1)).vai
+        var nota2 = parseFloat(document.getElementById(nota2)).vai
+
+        var media = (nota1 + nota2) /2;
+        if(media>=7)
+        alert("voce passou");
+        else
+        alert("voce reprovou")
+    }
+
+
+
+</script>
+
 </head>
 <body>
-    <h3> tabuada do numero;</h3><input id="mum" type="number"><br/>
-    <button onclick="tabuada()">exibir</button><br/>
-    <h3>tabuada</h3><br/>
-    <div id="resposta" style="display: inline" ></div>
+    
 </body>
-
 </html>
